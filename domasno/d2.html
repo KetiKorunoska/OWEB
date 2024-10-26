@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Order Pizza</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <ol>
+        <h1>Order Pizza!</h1>
+       </ol> 
+       <p>
+        <img src="pizza.png" alt="Pizza" width="100px" height="100px">
+       </p>
+    
+       <form method = "post" action = "https://www.dominos.mk/">
+    
+        <input type = "hidden" name = "recipient"
+           value = "dominos@dominos.com">
+        <input type = "hidden" name = "subject" 
+           value = "Feedback Form">
+        <input type = "hidden" name = "redirect" 
+           value = "main.html"> 
+    
+       <ol>
+        <p>
+            <strong>Select the Pizza size:</strong>
+    
+    
+            <ol>
+             <label>Big
+                <input name = "Pizzasize" type = "radio"
+                   value = "Big" checked></label>
+            </ol>
+            <ol>
+             <label>Medium
+                <input name = "Pizzasize" type = "radio" 
+                   value = "Medium"></label> 
+            </ol>
+            
+           <ol>
+             <label>Small
+                <input name = "Pizzasize" type = "radio" 
+                   value = "Small"></label>
+           </ol>
+          </p>
+       </ol>
+    
+    
+       <ol>
+        <p>
+            
+            <label><strong>Select the crust type:</strong> 
+    
+              <ol>
+                <select name = "crust">
+                    <option selected>Deep Dish</option>
+                    <option>Thin crust</option>
+                    <option>Flatbread</option>
+                    <option>Detroit-style Pizza</option>
+                    <option>Neapolitan dough</option>
+                    <option>Sicilian crust</option>
+                   
+                 </select>
+              </ol>
+            </label>
+         </p>
+       </ol>
+    
+    
+       <ol>
+        <p>
+            <strong>Select the filler:</strong>
+    
+            <label><ol> Sausages
+               <input name = "SelectFiller" type = "checkbox" 
+               value = "Sausages"></label>
+            </ol>
+              
+            <label><ol> Pepper
+               <input name = "SelectFiller" type = "checkbox" 
+               value = "Pepper"></label>
+            </ol>
+              
+            <label><ol> Mushrooms
+               <input name = "SelectFiller" type = "checkbox" 
+               value = "Mushrooms"></label> 
+            </ol>
+         </p>
+    
+       </ol>
+    
+    
+       <ol>
+        <p><label><strong>Name:</strong> 
+            <input name = "name" type = "text" size = "15">
+         </label></p>
+       </ol>
+    
+    
+       <ol>
+        <p><label><strong>Phone:</strong> 
+            <input name = "Phone" type = "tel" size = "15">
+         </label></p>
+       </ol>
+    
+       
+        <p>
+            <textarea name = "Message:"
+               rows = "4" cols = "36">Message:</textarea>
+         </p>
+       
+    
+       
+         <ol>
+            <p>
+                <input type = "submit" value = "Send">
+                <input type = "reset" value = "Reset">
+             </p>  
+    
+         </ol>
+       
+    
+       </form>
+
+</body>
+</html>
