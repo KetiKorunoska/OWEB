@@ -1,0 +1,55 @@
+body {
+    background-image: url(backgroundquiz.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:10px;
+}
+h1 {
+    text-align:center;
+    margin-top:20px;
+    font-size:xx-large;
+    color: rgba(80, 78, 78, 0.997);
+    text-shadow:rgb(10, 9, 10);   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    text-align: center;
+    margin-top: auto;
+    font-size: x-large;
+    color:rgba(80, 78, 78, 0.997);
+    text-shadow: rgb(10, 9, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: center;
+    margin-top: auto;
+    font-size: large;
+    color:rgba(80, 78, 78, 0.997);
+    text-shadow: rgb(10, 9, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.alert {
+    text-align: center;
+}
+button {
+    background: linear-gradient(to left , rgba(80, 78, 78, 0.997), rgb(10, 9, 10)); 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
+} 
+#letterInput {
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(10, 9, 10);
+}
